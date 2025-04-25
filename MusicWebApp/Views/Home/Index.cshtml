@@ -3,6 +3,12 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to MusicWebApp</h1>
+    <p>Click on the buttons below to view Songs and Albums.</p>
+
+    <!-- Botón para ir a la vista de Canciones -->
+    <a href="@Url.Action("Index", "Songs")" class="btn btn-primary btn-lg">View Songs</a>
+
+    <!-- Botón para ir a la vista de Álbumes -->
+    <a href="@Url.Action("Index", "Albums")" class="btn btn-secondary btn-lg">View Albums</a>
 </div>
