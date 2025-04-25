@@ -1,0 +1,13 @@
+﻿# Configuraciones de la base de datos y otros archivos sensibles
+appsettings.json
+
+/bin/
+/obj/
+
+.vs/
+
+publish/
+
+/packages/
+
+/azure-pipelines.yml
